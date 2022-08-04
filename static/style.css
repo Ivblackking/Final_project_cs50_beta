@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Secular One", sans-serif;
+    color: white;
+}
+
+header{
+    margin-top: 75px;
+    margin-bottom: 30px;
+    z-index: 500;
+}
+
+header > h1 {
+    font-weight: bold;
+    font-size: 50px;
+    z-index: 1000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loading-info {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: chartreuse;
+    /* visibility: hidden; */
+}
+
+#predicting-info {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: chartreuse;
+    /* visibility: hidden; */
+}
+
+.button {
+    background-color: red;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 480px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.choose {
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 4px;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.choose::file-selector-button {
+    background: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+
+#load {
+    margin-top: 10px;
+}   
+
+#predict {
+    margin-top: 5px;
+}
+
+#table-result {
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.95;
+}
